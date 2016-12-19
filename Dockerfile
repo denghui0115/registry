@@ -1,6 +1,6 @@
 # Build a minimal distribution container
 
-FROM alpine:3.4
+FROM denghui/alpine:3.4-tz.8
 
 RUN set -ex \
     && apk add --no-cache ca-certificates apache2-utils
